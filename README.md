@@ -1,1 +1,1 @@
-GO TO PLAN IT WEBSITE :: https://smrthh.github.io/PLAN-IT
+PLAN IT WEBSITE :: https://smrthh.github.io/PLAN-IT
