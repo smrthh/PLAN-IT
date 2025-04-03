@@ -1,1 +1,1 @@
-PREVIEW LINK : https://smrthh.github.io/PORTFOLIO-WEB/
+GO TO PLAN IT WEBSITE :: https://smrthh.github.io/PLAN-IT
