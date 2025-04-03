@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 
+    - CUSTOM META TAGS
+    -->
+    <meta name="description" content="Web developer portfolio showcasing skills and projects." />
+    <meta name="author" content="Samarth Holkar" />
+    <meta name="keywords" content="web development, portfolio, JavaScript, React, HTML, CSS , Design" />
+
+    <title> PLAN it - Study Manager </title>
+    
+    <!-- 
+    - FAVICON
+    -->
+    <link rel="shortcut icon" href="undraw_reading_atc8.svg" type="image/svg+xml">
+
+    <!-- 
+    - CUSTOM CSS LINK
+    -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- 
+    - GOOGLE FONTS
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish&family=Poppins:wght@400;500;600;700;800&display=swap"
+     rel="stylesheet">
+
+    <!-- 
+    - PRELOAD IMAGES
+    -->
+    <link rel="preload" as="image"  href="assets/images/hero-banner.jpg">
+
+    <!-- 
+    - JQUERY CDN
+    -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+    <!-- 
+    - SCROLL REVEAL JS
+    -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+    <!-- 
+    - EMAIL JS CDN
+     -->
+     <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+     </script>
+     <script type="text/javascript">
+     (function(){
+      emailjs.init("9z4uF5cN3vNOB9JDv");
+     })();
+     </script>
+
+    <!-- 
+    - ION ICON LINK
+    -->
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</head>
+
+<body>
+
+<!--    
+PRELOADER
+-->
+    <div class="preloader" data-preloader >
+    <div class="preloader-inner">
+        <img src="./undraw_reading_atc8.svg" alt="preloader" width="100" height="100" class="img">
+    </div>
+</div>
+
+ 
+
+<!-- 
+- @ HEADER
+-->
+
+<header class="header " data-header > 
+    <div class="container">
+
+
+        <a href="https://www.upwork.com/freelancers/~019433ae2aea71c4f2" class="logo"> PLAN IT </a>
+
+        <nav class="navbar"  data-navbar >
+            <ul class="navbar-list" >
+
+
+         <li>
+            <a href="#home" class="navbar-link" data-nav-link >Dashboard</a>
+         </li>
+
+         <li>
+            <a href="#result&exam" class="navbar-link" data-nav-link > Results & Exams </a>
+         </li>
+
+         <li>
+            <a href="#timetable" class="navbar-link" data-nav-link >Timetable</a>
+         </li>
+         
+         <li>
+            <a href="#pdfhub" class="navbar-link" data-nav-link > PDF HUB</a>
+         </li>
+        
+         <li>
+            <a href="#maild" class="navbar-link" data-nav-link >Completion Mail</a>
+         </li>
+        
+         <hr style="color: #ddd; background: transparent; margin: 1rem 0;"> 
+         <li>
+            <a href="./time.html" class="navbar-link" style="color: #ffffff; font-weight: 999;"" data-nav-link >
+                
+             Live Clock
+                          
+            </a>
+         </li>
+         
+         <li>
+            <!-- <a href="#contact" class="navbar-link" data-nav-link >Contact</a> -->
+         </li>
+
+
+          </ul>
+        </nav>
+
+        <button class="nav-toggle-btn " aria-label="toggle menu" data-nav-toggler >
+            <span class="line line-1"></span>
+            <span class="line line-2"></span>
+            <span class="line line-3"></span>
+        </button>
+
+
+    </div>
+</header>
+
+    <!--*  MAIN WRAPPER -->
+
+<main class="main">
+    <article>
+
+        <!-- 
+        - @ HERO / DASHBOARD
+        -->
+        <section class="section hero" id="home" aria-label="hero">
+
+            <div class="container">
+  
+                <figure class="hero-banner img-holder has-before" style="--width : 640 ; --height : 840 ; ">
+                    <img src="assets/images/hero-IIIII.jpg" alt="samarth HOLKAR" class="img-cover" width="640" height="840">
+                </figure>
+
+
+              <div class="hero-content">
+
+                <p class="section-subtitle owner"> <s>👑</s> Dev & Author - <strong style="color: #FFF;"> Samarth Holkar</strong></p> 
+
+                <h1 class="h1 hero-title"> <strong class="thrive"> Thrive for</strong> success </h1>
+
+                <ul class="hero-list">
+
+                    <li>
+                        
+                        <a href="#skills" class="list-link">
+                            <ion-icon name="sync-circle-outline"></ion-icon>
+                            <span class="span"> Quantative Aptitude </span>
+
+                        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#skills" class="list-link">
+                            <ion-icon name="sync-circle-outline"></ion-icon>
+                            <span class="span"> Reasoning Ability </span>
+
+                        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#skills" class="list-link">
+                            <ion-icon name="sync-circle-outline"></ion-icon>
+                            <span class="span"> English Language </span>
+
+                            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#skills" class="list-link">
+                            <ion-icon name="sync-circle-outline"></ion-icon>
+                            <span class="span"> General Awarness </span>
+
+                            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+
+                 <ul class="exp-list">
+
+                    <!-- <li class="list-item">
+                        <strong class="strong" data-number="30" >0+</strong>
+
+                        <span class="span">
+                            Realtime 
+                            Projects
+                        </span>
+                    </li>
+
+                    <li class="list-item">
+                        <strong class="strong" data-number="178" >0+</strong>
+
+                        <span class="span">
+                            Happy
+                            Customers
+                        </span>
+                    </li> -->
+
+                    <a href="https://github.com/smrthh/TO-DO-LIST-DAILY" target="_blank"  class="btn-prime left-hand">
+                        TO - DO 
+                        <ion-icon name="checkmark-circle-outline"></ion-icon>
+                    </a>
+    
+                    <a href="https://github.com/smrthh/TO-DID-LIST-DAILY" target="_blank" class="btn-prime right-hand" >
+                        TO - DID
+                        <ion-icon name="checkmark-done-circle-outline" class="to-did"></ion-icon>
+                    </a>
+                    
+                </ul> 
+
+
+ 
+              <a href="./time.html" class="slide-down-btn" aria-label="scroll down" data-scroll-down >
+                <ion-icon name="hourglass-outline"></ion-icon>
+              </a>
+
+
+              </div>
+
+
+            </div>
+
+
+        </section>
+
+        <!-- 
+       - @ RESULTS & EXAMS
+        -->
+        <section class="section portfolio" id="result&exam" aria-label="portfolio">
+            <div class="container">
+
+                <p class="section-subtitle"> All of My</p>
+
+                <h2 class="h2 section-title"> Results & Exams</h2>
+
+                <ul class="has-scrollbar">
+
+                    <li class="scrollbar-item">
+                        <div class="card">
+
+                            <figure class="card-banner img-holder" style="--width : 600 ; --height : 675 ;">
+                                <img src="assets/images/Temporarily unavailable.jpg" alt="Magic Art" class="img-cover" width="600" height="675" loading="lazy" ">
+                            </figure>
+
+                            <a href="https://github.com/smrthh/LANDING-PAGE" class="card-content">
+                                <ion-icon name="logo-github"></ion-icon>
+
+                                 <h3 class="h3 card-title"> UNAVAILABLE </h3>
+
+                                 <p class="card-text">Check back later...</p>
+                                 
+
+                            </a>
+
+                        </div>
+                    </li>
+
+                    <li class="scrollbar-item">
+                        <div class="card">
+
+                            <figure class="card-banner img-holder" style="--width : 600 ; --height : 675 ;">
+                                <img src="assets/images/Temporarily unavailable.jpg" alt="Bonna Green" class="img-cover" width="600" height="675" loading="lazy" >
+                            </figure>
+
+                            <a href="#" class="card-content">
+                                <ion-icon name="logo-github"></ion-icon>
+
+                                 <h3 class="h3 card-title">UNAVAILABLE</h3>
+
+                                 <p class="card-text">Check Back Later...</p>
+
+                            </a>
+
+                        </div>
+                    </li>
+
+                    <li class="scrollbar-item">
+                        <div class="card">
+
+                            <figure class="card-banner img-holder" style="--width : 600 ; --height : 675 ;">
+                                <img src="assets/images/Temporarily unavailable.jpg" alt="Leo Dandora" class="img-cover" width="600" height="675" loading="lazy" >
+                            </figure>
+
+                            <a href="#" class="card-content">
+                                <ion-icon name="logo-github"></ion-icon>
+
+                                 <h3 class="h3 card-title">UNAVAILABLE</h3>
+
+                                 <p class="card-text">Check back later...</p>
+
+                            </a>
+
+                        </div>
+                    </li>
+
+                    <li class="scrollbar-item">
+                        <div class="card">
+
+                            <figure class="card-banner img-holder" style="--width : 600 ; --height : 675 ;">
+                                <img src="assets/images/Temporarily unavailable.jpg" alt="Folio Grasia" class="img-cover" width="600" height="675" loading="lazy" >
+                            </figure>
+
+                            <a href="#" class="card-content">
+                                <ion-icon name="logo-github"></ion-icon>
+
+                                 <h3 class="h3 card-title">UNAVAILABLE</h3>
+
+                                 <p class="card-text">Check back later...</p>
+
+                            </a>
+
+                        </div>
+                    </li>
+
+                    <li class="scrollbar-item">
+                        <div class="card">
+
+                            <figure class="card-banner img-holder" style="--width : 600 ; --height : 675 ;">
+                                <img src="assets/images/Temporarily unavailable.jpg" alt="Viva Mercury" class="img-cover" width="600" height="675" loading="lazy" >
+                            </figure>
+
+                            <a href="#" class="card-content">
+                                <ion-icon name="logo-github"></ion-icon>
+
+                                 <h3 class="h3 card-title">UNAVAILABLE</h3>
+
+                                 <p class="card-text">Check back later...</p>
+
+                            </a>
+
+                        </div>
+                    </li>
+
+                    <li class="scrollbar-item">
+                        <div class="card">
+
+                            <figure class="card-banner img-holder" style="--width : 600 ; --height : 675 ;">
+                                <img src="assets/images/Temporarily unavailable.jpg" alt="Santa Onera" class="img-cover" width="600" height="675" loading="lazy" >
+                            </figure>
+
+                            <a href="#" class="card-content">
+                                <ion-icon name="logo-github"></ion-icon>
+
+                                 <h3 class="h3 card-title">UNAVAILABLE</h3>
+
+                                 <p class="card-text">Check back later...</p>
+
+                            </a>
+
+                        </div>
+                    </li>
+                    
+                </ul>
+
+            </div>
+        </section>
+
+        <!-- 
+        - @ TIMETABLE
+        -->
+        <section class="section skills has-before" id="timetable" aria-label="skills" style=" background-image:url(assets/images/skills-bg.png);">
+            <div class="container">
+    
+                <div class="skills-content">
+    
+    
+                    <p class="section-subtitle">My Productive & </p>
+    
+                    <h2 class="h2 section-title"> IDEAL TIMETABLE </h2>
+       
+                    <p class="section-text"> This is the <b style="color: #619AFC;">Daily Timetable</b> for Making the Day Ideal. 
+                        This is Static one but in case if the things not going on the way they should be added in the buffer zone.
+                    </p> 
+    
+                   <!-- <p class="section-text"> Hint : Next day should be planned before That day. Wake up at the morning Be fresh take breakfast and be ready then Arrive study place on 8 or before 8 AM.</p> -->
+
+                    <div class="subject-topics ">
+                        <p class="subject-desc section-text"> 
+
+                        <b style="color: #619AFC; margin-bottom: 10px; font-weight: 900;letter-spacing: 1px;"> 🌄 Morning 8 To 9 - </b> <br>
+                        <strong>1. ENGLISH - </strong> <br> Reading Newspaper OR Novel <br> (Never Skip Reading) <br> <i>Time - 1 Hrs.</i> <br><br>
+
+                          <b style="color: #619AFC; margin-bottom: 10px; font-weight: 900;letter-spacing: 1px;"> 🌄 Morning 9 To 11 - </b> <br>
+                          <strong>2. REASONING ABILITY - </strong> <br> Chaperwise Practise of Previous day class or lecture 40 To 50 Questions Sets. Remaining Que would be Pushed to Buffer Zone Time. <br> 
+                          <i>Time - 2 Hrs.</i> <br><br>
+    
+                        <b style="color: #619AFC;"> 🌄 Morning 11 To 1 -</b> <br>
+                        <strong>3. QUANTATIVE APTITUDE -</strong> <br> Chaperwise Practise of Previous day class or lecture 40 To 50 Questions Sets. Remaining Que would be Pushed to Buffer Zone Time. <br>
+                        <i>Time - 2 Hrs.</i> <br><br>
+
+                        <b style="color: #619AFC;"> 🕑 Afternoon 1 To 2 -</b> <br>
+                        <strong>4. LUNCH BREAK 🍽️</strong><br> Take a lunch break & Burnout Prevention - I <br>
+                        <i>Time - 1 Hrs.</i> <br><br>
+
+                        <b style="color: #619AFC; margin-bottom: 10px; font-weight: 900;letter-spacing: 1px;"> 🕑 Afternoon 2 To 4 - </b> <br>
+                        <strong>5. QUANT - </strong> <br> Attend Class , Lecture Or session So sleep Don't get over you Or keep yourself busy in DI solving.<br> 
+                        <i>Time - 2 Hrs.</i> <br><br>
+
+                        <b style="color: #619AFC; margin-bottom: 10px; font-weight: 900;letter-spacing: 1px;"> 🌆 Evening 4 To 6 - </b> <br>
+                        <strong>6. REASONING - </strong> <br> Attend Class , Lecture Or session So we can solve that Questions Tommorow Or Spending time on Puzzles. <br> 
+                        <i>Time - 2 Hrs.</i> <br><br>
+
+                        <b style="color: #619AFC;"> 🌆 Evening 6 To 6.30 -</b> <br>
+                        <strong>7. MINY CHAI BREAK ☕</strong><br> Take a Chai & Burnout Prevention - II <br>
+                        <i>Time - 1/2 Hrs.</i> <br><br>
+
+                        <b style="color: #619AFC; margin-bottom: 10px; font-weight: 900;letter-spacing: 1px;"> 🌆 Evening 6:30 To 7:30 - </b> <br>
+                        <strong>8. QUANT OR REASONING - </strong> <br>Devoting Time for Class , Lecture Or Session Or New concept Grabbing  <br> 
+                        <i>Time - 1 Hrs.</i> <br><br>
+
+                        
+                        <b style="color:#619AFC; margin-bottom: 10px; font-weight: 900;letter-spacing: 1px;"> 🌃 Night 7:30 To 8:30 - </b> <br>
+                        <strong>9. RETURNING TO HOME 🏠 </strong> <br> Return To Home & Ready for Cope out On Next Determination. <br> 
+                        <i>Time - 1 Hrs.</i> <br><br>
+
+                        
+                        <b style="color:#619AFC; margin-bottom: 10px; font-weight: 900;letter-spacing: 1px;"> 🌃 Night 9 To 10 - </b> <br>
+                        <strong>10. ENGLISH - </strong> <br> Each day should be divided into Grammer & Vocabulary. <br> 
+                        <i>Time - 1 Hrs.</i> <br><br>
+
+                        
+                        <b style="color: #619AFC; margin-bottom: 10px; font-weight: 900;letter-spacing: 1px;"> 🌃 Night 10 To 11 - </b> <br>
+                        <strong>11. BUFFER ZONE - </strong> <br> This time specially Scheduled for   Remaining Activities , Questions or anything that wasn't done Or Giving the Mock Tests whether Sectional or Full. <br> 
+                        <i>Time - 1 Hrs.</i> <br><br>
+
+                        <u><b style="color: #619AFC; margin-bottom: 10px; font-weight: 900;letter-spacing: 1px;">END OF THE DAY ❤️‍🔥</b></u>
+
+
+                        </p>
+                    </div>
+
+    
+    
+    
+                </div>
+    
+                
+            <div class="has-before timetable-banner">
+
+            </div>
+    
+             </div>
+        </section>
+
+
+        <!-- 
+        - @ PDF HUB
+        -->
+        <section class="section pricing" style="margin-block-start: 2rem;" id="pdfhub" aria-label="pricing" style="margin-top: -150px;">
+            <div class="container">
+
+
+                <div class="pricing-content">
+
+                    <p class="section-subtitle">Imporatant </p>
+
+                    <h2 class="h2 section-title">PDF HUB</h2>
+
+                    <p class="section-text">Here are All documents stuff reserved , Syllabus of individual subjects. Previous year question papers and some Important. 
+                    </p>   
+              
+                </div>
+
+                <ul class="pricing-list">
+
+                    <li class="left">
+                        <div class="pricing-card">
+        
+                            <ion-icon name="document-lock-outline"></ion-icon>
+
+                   <h3 class="card-title"> IBPS JA PYQP - Pre 2024 </h3>
+                          
+                   <a href="./assets/images/blog-1.jpg" download="IBPSJAPYQP2024"> <data class="card-price" value="$500"> <ion-icon name="download-outline"></ion-icon> </data> </a>
+                        </div>
+                    </li>
+
+                    <li class="right">
+                        <div class="pricing-card">
+        
+                            <ion-icon name="document-lock-outline"></ion-icon>
+                          
+
+                   <h3 class="card-title"> SBI JA PYQP - Pre 2024 </h3>
+                          
+                   <a href="" download=""> <data class="card-price" value="$500"> <ion-icon name="download-outline"></ion-icon> </data> </a>
+                        </div>
+                    </li>
+
+                    <li class="left">
+                        <div class="pricing-card" class="card-three">
+        
+                            <ion-icon name="document-lock-outline"></ion-icon>
+
+                   <h3 class="card-title">RRB JA PYQP - Pre 2024 </h3>
+                          
+                   <a href="" download=""> <data class="card-price" value="$500"> <ion-icon name="download-outline"></ion-icon> </data> </a>
+                        </div>
+                    </li>
+
+                    <li class="right">
+                        <div class="pricing-card">
+        
+                            <ion-icon name="document-lock-outline"></ion-icon>
+
+                   <h3 class="card-title"> IBPS JA PYQP - Mains 2024 </h3>
+                          
+                   <a href="" download=""> <data class="card-price" value="$500"> <ion-icon name="download-outline"></ion-icon> </data> </a>
+                        </div>
+                    </li>
+
+                    <li class="left">
+                        <div class="pricing-card">
+        
+                            <ion-icon name="document-lock-outline"></ion-icon>
+
+                   <h3 class="card-title"> SBI JA PYQP - Mains 2024 </h3>
+                          
+                   <a href="" download=""> <data class="card-price" value="$500"> <ion-icon name="download-outline"></ion-icon> </data> </a>
+                        </div>
+                    </li>
+
+
+
+
+
+
+                </ul>
+
+            </div> 
+        </section>
+
+
+        <!-- 
+        - @ COMPLETION MAIL
+        -->
+        <section class="section contact" id="maild" aria-label="contact">
+            <div class="container">
+
+                <div class="contact-content">
+
+              <p class="section-subtitle">todays analysation &</p>
+
+              <h2 class="h2 section-title">completion mail</h2>
+
+            <p class="section-text">Daily Mail Just About todays TO-DO List. What Remains & What i Did. <br> ⚠️ It's Compulsory.</p>
+
+       
+
+            </p>
+
+            <ul class="contact-list">
+
+                <li class="contact-item">
+                    <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+
+                    <address class="contact-link">
+                        <a href="https://www.google.com/maps/place/Pune,+Maharashtra/@18.5467236,73.5739965,10.75z/data=!4m14!1m7!3m6!1s0x3bc2bbae9a30637b:0xeedcacb84f858053!2sYour+Address+Property+Consultants!8m2!3d18.6011952!4d73.7456265!16s%2Fg%2F11n_m763h8!3m5!1s0x3bc2bf2e67461101:0x828d43bf9d9ee343!8m2!3d18.5204303!4d73.8567437!16zL20vMDE1eTJx?entry=ttu" target="_blank">Pune , Maharashtra , INDIA</a>
+                        
+                    </address>
+                </li>
+
+                
+                <li class="contact-item">
+                    <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+                    
+                    <a href="mailto:samarthholkar700@gmail.com" class="contact-link">samarthholkar700@gmail.com
+                        
+                    </a>
+                </li>
+
+                <li class="contact-item">
+                    <ion-icon name="mail-unread-outline"></ion-icon>
+                    
+                    <a href="mailto:Planit@Org.com" class="contact-link">Planit@Org.com
+                        
+                    </a>
+                </li>
+                
+                    <li class="contact-item">
+                        <ion-icon name="alert-circle-outline"></ion-icon>
+    
+                     <a  href="tel:+91 9307291628" class="contact-link"> Call Me With Consent Only. </a>
+                    </li>
+
+
+            </ul>
+
+                </div>
+
+                <div id="contact-form" class="contact-form">
+                    <form id="myForm" action="">
+                     
+                      <input type="text" id="name" name="name" aria-label="name" class="input-field text" placeholder="Name of Sender" autocomplete="off" required>
+                  
+                      <input type="email" id="email" name="email_address" class="input-field mail" placeholder="Enter Email" autocomplete="off" required >
+                  
+                      <textarea id="message" name="message" class="input-field area" placeholder="Completion Of Tasks " autocomplete="off"  required ></textarea>
+                  
+                      <button type="submit" class="btn btn-primary" onclick="sendMail()">
+                        
+                        <!-- <ion-icon name="heart-outline" s></ion-icon> -->
+                         🤍
+
+                      </button>
+
+                    </form>
+                  
+                
+                    <div class="thank-you-message" id="thank-you-message" style="display: none;">
+                        thanks  🤍. <br> I will React you soon...
+                    </div>
+
+                  </div>
+
+            </div>
+        </section>
+
+        <!-- 
+        - @ FOOTER
+        -->
+        <footer class="footer">
+            <div class="container">
+
+                <p class="copyright">&copy; 2025. All rights reserved by 
+                    <a href="#"class="copyright-link">Samarth Holkar</a></p>
+
+
+                <ul class="social-list">
+
+                    <li>
+                        <a href="https://www.github.com/smrthh" class="social-link"><ion-icon name="logo-github"></ion-icon></a>
+                    </li>
+
+                    
+                    <li>
+                        <a href="https://www.linkedin.com/in/smrthholkar-webdev-clqn6r8" class="social-link"><ion-icon name="logo-linkedin"></ion-icon></a>
+                    </li>
+
+                    
+                    <li>
+                        <a href="https://www.instagram.com/smrth.3?r=nametag" class="social-link"><ion-icon name="logo-instagram"></ion-icon></a>
+                    </li>
+
+                    
+                    <li>
+                       <a href="#" class="social-link"> <ion-icon class="social-link" name="logo-behance"></ion-icon></a>
+                    </li>
+
+                    <!-- <li>
+                        <a href="#" class="social-link"><ion-icon name="logo-tiktok"></ion-icon></a>
+                    </li> -->
+
+
+                </ul>
+
+
+            </div>
+        </footer>
+
+
+    </article>
+</main>
+
+
+
+
+    <!-- 
+    - ION ICON LINK
+    -->
+    <!-- <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script> -->
+
+    <!-- 
+    - CUSTOM JS LINK
+    -->
+    <script src="assets/js/script.js"></script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 
+    - CUSTOM META TAGS
+    -->
+    <meta name="description" content="Web developer portfolio showcasing skills and projects." />
+    <meta name="author" content="Samarth Holkar" />
+    <meta name="keywords" content="web development, portfolio, JavaScript, React, HTML, CSS , Design" />
+
+    <title> PLAN it - Study Manager </title>
+    
+    <!-- 
+    - FAVICON
+    -->
+    <link rel="shortcut icon" href="undraw_reading_atc8.svg" type="image/svg+xml">
+
+    <!-- 
+    - CUSTOM CSS LINK
+    -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- 
+    - GOOGLE FONTS
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish&family=Poppins:wght@400;500;600;700;800&display=swap"
+     rel="stylesheet">
+
+    <!-- 
+    - PRELOAD IMAGES
+    -->
+    <link rel="preload" as="image"  href="assets/images/hero-banner.jpg">
+
+    <!-- 
+    - JQUERY CDN
+    -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+    <!-- 
+    - SCROLL REVEAL JS
+    -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- 
+    - EMAIL JS CDN
+     -->
+     <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+     </script>
+     <script type="text/javascript">
+     (function(){
+      emailjs.init("9z4uF5cN3vNOB9JDv");
+     })();
+     </script>
+
+    <!-- 
+    - ION ICON LINK
+    -->
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</head>
+
+<body>
+
+<!--    
+PRELOADER
+-->
+    <!-- <div class="preloader" data-preloader >
+    <div class="preloader-inner">
+        <img src="./undraw_reading_atc8.svg" alt="preloader" width="100" height="100" class="img">
+    </div>
+</div> -->
+
+
+<!-- 
+    - @ HEADER
+    -->
+    
+    <header class="header " data-header > 
+        <div class="container">
+            
+            
+            <a href="https://www.upwork.com/freelancers/~019433ae2aea71c4f2" class="logo"> PLAN IT </a>
+            
+            <nav class="navbar"  data-navbar >
+                <ul class="navbar-list" >
+                    
+                    
+        <li>
+            <a href="./index.html" class="navbar-link" data-nav-link >Dashboard</a>
+        </li>
+                    
+         <li>
+            <a href="./index.html" class="navbar-link" data-nav-link > Results & Exams </a>
+        </li>
+
+        <li>
+            <a href="./index.html" class="navbar-link" data-nav-link >Timetable</a>
+        </li>
+         
+         <li>
+            <a href="./index.html" class="navbar-link" data-nav-link > PDF HUB</a>
+         </li>
+         
+         <li>
+             <a href="./index.html" class="navbar-link" data-nav-link >Completion Mail</a>
+            </li>
+            
+         <hr style="color: #ddd; background: transparent; margin: 1rem 0;"> 
+
+         <li>
+            <a href="#news" class="navbar-link" style="color: #ffffff; font-weight: 999;"" data-nav-link >
+                
+             Live Clock
+
+            </a>
+        </li>
+         
+        <li>
+            <!-- <a href="#contact" class="navbar-link" data-nav-link >Contact</a> -->
+         </li>
+         
+         
+          </ul>
+        </nav>
+
+        <button class="nav-toggle-btn " aria-label="toggle menu" data-nav-toggler >
+            <span class="line line-1"></span>
+            <span class="line line-2"></span>
+            <span class="line line-3"></span>
+        </button>
+
+
+    </div>
+</header>
+
+<!--*  MAIN WRAPPER -->
+
+<main class="main">
+    <article>
+        
+   <div class="clock-wrapper">
+         
+    <h1 class="h1 hero-title padded" style="color: #ffffff;"> Time</h1>
+
+    <p class="section-text padded"> Live Clock for mananging studies <br> Manage your study with this Live Clock Feature
+    <br> Note - This section is still under Enforcement.</p>
+        
+    <div class="clock" id="clock"> 
+       
+        <h1 class="hrs" id="hrs"> 00 : </h1>
+        <h1 class="mins" id="mins">00 : </h1>
+        <h1 class="sec" id="sec">00</h1>
+    </div>
+    
+    <a href="./index.html" target="_blank"  class=" btn-link-go-back">
+        GO BACK
+        <ion-icon name="chevron-forward-circle-outline"></ion-icon>
+    </a>
+
+    <button class="fullscreen-btn" onclick="toggleFullscreen()" style="color: #619AFC;  ">Fullscreen</button>
+
+   </div>
+        <!-- 
+        - @ FOOTER
+        -->
+        <footer class="footer">
+            <div class="container">
+
+                <p class="copyright">&copy; 2025. All rights reserved by 
+                    <a href="#"class="copyright-link">Samarth Holkar</a></p>
+
+
+                <ul class="social-list">
+
+                    <li>
+                        <a href="https://www.github.com/smrthh" class="social-link"><ion-icon name="logo-github"></ion-icon></a>
+                    </li>
+
+                    
+                    <li>
+                        <a href="https://www.linkedin.com/in/smrthholkar-webdev-clqn6r8" class="social-link"><ion-icon name="logo-linkedin"></ion-icon></a>
+                    </li>
+
+                    
+                    <li>
+                        <a href="https://www.instagram.com/smrth.3?r=nametag" class="social-link"><ion-icon name="logo-instagram"></ion-icon></a>
+                    </li>
+
+                    
+                    <li>
+                       <a href="#" class="social-link"> <ion-icon class="social-link" name="logo-behance"></ion-icon></a>
+                    </li>
+
+                    <!-- <li>
+                        <a href="#" class="social-link"><ion-icon name="logo-tiktok"></ion-icon></a>
+                    </li> -->
+
+
+                </ul>
+
+
+            </div>
+        </footer>
+
+
+    </article>
+</main>
+
+
+
+
+    <!-- 
+    - ION ICON LINK
+    -->
+    <!-- <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script> -->
+
+    <!-- 
+    - CUSTOM JS LINK
+    -->
+    <script src="assets/js/time.js"></script>
+
+
+
+</body>
+</html>
