@@ -1,6 +1,6 @@
 *VERSION UPGRADING*
 
-MAJOR MINOR PATCH BUILD
+MAJOR-MINOR-PATCH-BUILD
 
 ( MAJOR ) - 1	Big changes (new features, new UI, or breaking changes)
 
